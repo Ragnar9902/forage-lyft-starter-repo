@@ -1,6 +1,8 @@
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from model.car import Car
-from Engine import Engine
-from battery import Battery
 from model.capulet_engine import CapuletEngine
 from model.nbbattery import NubbinBattery
 from model.spbattery import SpindlerBattery
